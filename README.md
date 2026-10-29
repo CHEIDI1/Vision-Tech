@@ -1,4 +1,4 @@
-# SiteTech
+# VisionTech
 
 Site vitrine d'une agence web avec formulaire de prise de rendez-vous (Formspree).
 

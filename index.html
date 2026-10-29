@@ -3,8 +3,10 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>SiteTech</title>
-<meta name="description" content="SiteTech crée des sites web sur mesure. Prenez rendez-vous en ligne pour parler de votre projet.">
+<title>VisionTech</title>
+<link rel="icon" type="image/png" href="logo.png">
+<link rel="apple-touch-icon" href="logo.png">
+<meta name="description" content="VisionTech crée des sites web sur mesure. Prenez rendez-vous en ligne pour parler de votre projet.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=DM+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
@@ -46,7 +48,7 @@ a{color:inherit}
 /* En-tête */
 header{display:flex;align-items:center;justify-content:space-between;gap:16px;padding-block:20px;flex-wrap:wrap}
 .logo{font-family:var(--f-display);font-weight:800;font-size:1.4rem;letter-spacing:-0.03em;text-decoration:none;display:flex;align-items:center;gap:10px}
-.logo i{display:inline-block;width:14px;height:14px;background:var(--accent);border-radius:3px;box-shadow:6px 6px 0 var(--signal)}
+.logo img{height:62px;width:auto;display:block}
 nav{display:flex;gap:22px;align-items:center;flex-wrap:wrap;font-weight:500;font-size:.95rem}
 nav a{text-decoration:none;color:var(--muted)}
 nav a:hover{color:var(--ink)}
@@ -241,7 +243,7 @@ footer{border-top:1.5px solid var(--line);padding-block:32px;display:flex;justif
 <div class="wrap">
 
   <header class="wrap">
-    <a class="logo" href="#accueil"><i aria-hidden="true"></i>SiteTech</a>
+    <a class="logo" href="#accueil" aria-label="VisionTech, accueil"><img src="logo.svg" alt="VisionTech" width="197" height="62"></a>
     <nav aria-label="Navigation principale">
       <a href="#services">Services</a>
       <a href="#methode">Méthode</a>
@@ -254,7 +256,7 @@ footer{border-top:1.5px solid var(--line);padding-block:32px;display:flex;justif
       <div>
         <p class="mono">Agence web</p>
         <h1 style="margin-top:14px">Votre site web, <em>en ligne</em> et prêt à vendre.</h1>
-        <p class="lead">SiteTech conçoit des sites vitrines, des boutiques en ligne et des applications web sur mesure. Racontez-nous votre projet lors d'un rendez-vous gratuit.</p>
+        <p class="lead">VisionTech conçoit des sites vitrines, des boutiques en ligne et des applications web sur mesure. Racontez-nous votre projet lors d'un rendez-vous gratuit.</p>
         <div class="cta">
           <a class="btn" href="#rdv">Réserver un rendez-vous</a>
           <a class="btn ghost" href="#services">Voir nos services</a>
@@ -339,7 +341,7 @@ footer{border-top:1.5px solid var(--line);padding-block:32px;display:flex;justif
         </div>
 
         <form id="rdv-form" action="https://formspree.io/f/xeaakyvv" method="POST" novalidate>
-          <input type="hidden" name="_subject" value="Nouvelle demande de rendez-vous SiteTech">
+          <input type="hidden" name="_subject" value="Nouvelle demande de rendez-vous VisionTech">
           <div class="hp" aria-hidden="true"><label>Ne pas remplir <input type="text" name="_gotcha" tabindex="-1" autocomplete="off"></label></div>
 
           <div class="field">
@@ -426,7 +428,7 @@ footer{border-top:1.5px solid var(--line);padding-block:32px;display:flex;justif
   </main>
 
   <footer>
-    <span>© <span id="annee">2026</span> SiteTech. Tous droits réservés.</span>
+    <span>© <span id="annee">2026</span> VisionTech. Tous droits réservés.</span>
     <span>Création de sites web sur mesure</span>
   </footer>
 </div>

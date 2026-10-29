@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="470" height="148" viewBox="16 24 470 148" role="img" aria-labelledby="title desc">
+<title id="title">VisionTech — logo corrigé</title>
+<desc id="desc">Carré blanc avec les lettres VT clairement lisibles, légèrement superposé à un carré bleu ciel décalé vers le bas et la droite.</desc>
+<!-- carré arrière bleu clair, léger décalage vers le bas et la droite -->
+<rect x="46" y="47" width="112" height="112" rx="19" fill="#9BD8FF"/>
+<!-- carré principal blanc -->
+<rect x="28" y="34" width="112" height="112" rx="19" fill="#FFFFFF" stroke="#111111" stroke-width="4"/>
+<!-- monogramme VT clairement lisible -->
+<text x="84" y="111" text-anchor="middle" font-family="Georgia, serif" font-size="48" font-weight="600" font-style="normal" letter-spacing="0" fill="#111111">𝒱𝒯</text>
+<text x="190" y="112" font-family="Arial, Helvetica, sans-serif" font-size="60" font-weight="700" letter-spacing="-3" fill="#111111">VisionTech</text>
+</svg>
+
